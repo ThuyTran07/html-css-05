@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -490,28 +492,54 @@
               online bank and move faster
             </p>
             <div class="cta__icon">
-              <img src="./assets/img/cta01.svg" alt="" />
-              <img src="./assets/img/cta02.svg" alt="" />
+              <a href="#!"><img src="./assets/img/cta01.svg" alt="" /></a>
+              <a href="#!"><img src="./assets/img/cta02.svg" alt="" /></a>
             </div>
             <img
               src="./assets/img/cta03.svg"
               alt=""
               class="cta__decor cta__decor--01"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
             />
             <img
               src="./assets/img/cta03.svg"
               alt=""
               class="cta__decor cta__decor--02"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
             />
             <img
               src="./assets/img/cta04.svg"
               alt=""
               class="cta__decor cta__decor--03"
+              data-aos="fade-right"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
             />
             <img
               src="./assets/img/cta04.svg"
               alt=""
               class="cta__decor cta__decor--04"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
             />
           </div>
         </div>
@@ -584,5 +612,9 @@
         <p>© 2020 Ligft Media All rights reserved.</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

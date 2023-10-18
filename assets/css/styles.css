@@ -43,6 +43,10 @@ a {
   line-height: var(--height);
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
 .inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -905,6 +909,7 @@ a {
 
 .cta__decor {
   position: absolute;
+  z-index: 1;
 }
 
 .cta__decor--01 {
